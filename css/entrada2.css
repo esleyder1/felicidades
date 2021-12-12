@@ -14,14 +14,14 @@
 }
 div#musica {
     position: absolute;
-    right: -1em;
-    top: -10px;
+    right: 3em;
+    top: 1em;
     padding: 1.5em;
     background: #ffa101;
     border-radius: 10em;
     color: white;
     font-weight: bold;
-    transition: .5s;
+    transition: .2s;
     cursor:pointer;
 }
 div#musica a{
@@ -30,14 +30,12 @@ div#musica a{
 }
 div#musica:hover {
     position: absolute;
-    right: -1em;
-    top: -10px;
-    padding: 2em;
+    padding: 1.6em;
     background: #ff5e01;
     border-radius: 10em;
     color: white;
     font-weight: bold;
-    transition: .5s;
+    transition: .2s;
     cursor:pointer;
 }
  h1 {

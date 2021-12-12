@@ -5,11 +5,12 @@ $(document).ready(function() {
         let imagen = $(this).children('span.imagen').text();
 
         let msg = $(this).children('span.mensaje').text();
-        cambiarCancion(mp3)
+    
         cambiarTitulo(nombre)
         cambiarImagen(imagen)
 
         mostrarMensaje(msg)
+        cambiarCancion(mp3)
 
     })
     
