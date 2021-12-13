@@ -4,6 +4,12 @@
 {
   font-family: raleway;
 }
+.no-seleccionable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+}
 body
 {
   margin: 0;
